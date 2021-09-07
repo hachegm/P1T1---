@@ -8,6 +8,7 @@ body
     background-color: #fafafa;
 }
 
+/* -------------- BARRA NAVEGACION---------------*/
 .navegacion
 {
     font-family: 'Raleway', sans-serif;
@@ -78,8 +79,9 @@ body
 {
     background-color: rgb(112, 168, 106);
 }
+/* --------------BARRA NAVEGACION---------------*/
 
-/* ----------------------------------------------------------------------------------------------- */
+/* --------------SECCION 1---------------*/
 
 .seccion_1
 {
@@ -111,8 +113,9 @@ body
     margin-bottom: 225px;
     line-height: 0px;
 }
+/* --------------SECCION 1---------------*/
 
-/* -----------------------------*/
+/* --------------SECCION 2---------------*/
 
 .seccion_2
 {
@@ -142,8 +145,13 @@ body
     max-width: 100%;
     max-height: 100%;
     border-radius: 35px;
-
 }
+
+.seccion_2 img:hover
+{
+    opacity: 70%;
+}
+
 .seccion_2 p
 {
     font-weight: 400;
@@ -157,11 +165,11 @@ body
     font-weight: 600;
     text-align: center;
 }
+/* --------------SECCION 2---------------*/
 
 
 
-
-/* -----------------------------*/
+/* --------------SECCION 3---------------*/
 
 .seccion_3
 {
@@ -172,6 +180,7 @@ body
     align-items:baseline;
     justify-content:space-be;
     margin: auto;
+    margin-top: 32px;
     padding-top: 0px;;
     border-radius: 35px;
 }
@@ -194,6 +203,98 @@ body
     justify-content: center;
 }
 
+.seccion_3 img:hover
+{
+    opacity: 70%;
+}
+/* --------------SECCION 3---------------*/
+
+/* --------------SECCION 4---------------*/
+.seccion_4
+{
+    height: 400px;
+    display: flex;
+    width: 92%;
+    align-items:baseline;
+    justify-content:space-be;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 0px;;
+    border-radius: 35px;
+}
+
+.seccion_4 div
+{
+    width: 22%;
+    margin: auto;
+}
+
+.seccion_4 img
+{
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion_4 figure
+{
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.seccion_4 img:hover
+{
+    opacity: 70%;
+}
+
+.seccion_4 a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.seccion_4 figcaption
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: left;
+}
+
+.seccion_4 button
+{
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgb(130, 206, 123);
+    border: none; /*Eliminar efecto boton */
+    outline: none;
+    border-radius: 35px; /*Suavizar bordes */
+    padding: .5rem 1rem;
+    cursor: pointer; /* Poner manita cuando pase con el cursor */
+    margin-right: 2.5rem;
+}
+
+.seccion_4 button:hover /* Pasar cursor */
+{
+    background-color: rgb(158, 225, 150);
+
+}
+
+.seccion_4 button:active
+{
+    background-color: rgb(112, 168, 106);
+}
+
+/* --------------SECCION 4---------------*/
 
 /* -------------FOOTER----------------*/
 
@@ -203,6 +304,7 @@ body
     display: flex;
     justify-content: center;
     padding:40px 0;
+    margin-top: 32px;
     background: linear-gradient(180deg, rgb(46, 46, 46) 0%, rgba(24, 24, 24) 100%);
     color:#fafafa;
   }
@@ -240,4 +342,6 @@ body
     color:#fafafa;
     margin-bottom:0;
   }
+
+  /* -------------FOOTER----------------*/
 
