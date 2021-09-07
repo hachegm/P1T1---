@@ -1,34 +1,35 @@
 <html>
 
-<head>
-    <meta charset="utf-8">
-    <title>Zara</title>
-    <link rel="stylesheet" href="Styles.css">
+<head> <!--HEAD = PROVEE INFORMACION GENERAL -->
+    <meta charset="utf-8">  <!--Codificacion de caracteres-->
+    <title>Zara</title> <!--Titutlo-->
+    <link rel="stylesheet" href="Styles.css"> <!--Link hacia CSS-->
 </head>
 
-<body>
-    <!--Header-->
+<!--BODY-->
+<body> 
+    <!--Header: representa un grupo de ayudas introductorias o de navegación. Puede contener algunos elementos de encabezado, así como también un logo, un formulario de búsqueda, un nombre de autor y otros componentes. -->
     <header>
-        <nav>
-            <ul class="navegacion">
+        <nav> <!--Nav El elemento HTML <nav> representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual o a otros documentos. Ejemplos comunes de secciones de navegación son menús, tablas de contenido e índices.-->
+            <ul class="navegacion"> <!--ul de "unordered list" -lista no ordenada . crea una lista no ordenada-->
                 <li class="navegacion_item"><a href="#"><img src="/Logo.ico" alt="Logo" width="45px" height="45px" ></a></li>
-                <li class="navegacion_item"><a href="#">Inicio</a></li>
+                <li class="navegacion_item"><a href="#">Inicio</a></li> <!--El elemento li del ingles item list o elemento de lista declara cada uno de los elementos de una lista.                -->
                 <li class="navegacion_item"><a href="#">Productos</a></li>
                 <li class="navegacion_item"><a href="#">Quiénes somos</a></li>
-                <li style="list-style: none;"><a class="contacto" href="mailto:shop@fake.com.mx"><button class="btn_nav">Contacto</button></a></li>
+                <li style="list-style: none;"><a class="contacto" href="mailto:shop@fake.com.mx"><button class="btn_nav">Contacto</button></a></li> <!--The <button> tag defines a clickable button-->
             </ul>
         </nav>
     </header>
     <!--Header-->
 
     <!--Seccion 1-->
-        <div class="seccion_1">
+        <div class="seccion_1">  <!--div de "division" -división . Sirve para crear secciones o agrupar contenidos.-->
             <div>
-                <h1>Las mejores prendas</h1>
+                <h1>Las mejores prendas</h1> <!--H!-->
             </div>
 
-            <div style="position: absolute; margin-top: 150px;">
-                <p>¡A un solo click!</p>
+            <div style="position: absolute; margin-top: 150px;"> <!--CSS In-Line-->
+                <p>¡A un solo click!</p>  <!--Parrafo-->
             </div>
         </div>
     <!--Seccion 1-->
@@ -38,8 +39,8 @@
             <div>
                 <h2>Alejandro Rivera</h2>
                     <div >
-                        <a href="#seccion_2">
-                            <img src="./_Clothing/Man_1.jpg" alt="Man_1">
+                        <a href="#seccion_2"> <!--Link-->
+                            <img src="./_Clothing/Man_1.jpg" alt="Man_1"> <!--Imagen-->
                         </a>
 
                     </div>
@@ -88,9 +89,9 @@
 
         <div>
             <a href="#seccion_4">
-                <figure>
+                <figure> <!--FIGCAPTION El elemento HTML <figure> representa contenido independiente, a menudo con un título. Si bien se relaciona con el flujo principal, su posición es independiente de éste. Por lo general, se trata de una imagen, una ilustración, un diagrama, un fragmento de código, o un esquema al que se hace referencia en el texto principal, pero que se puede mover a otra página o a un apéndice sin que afecte al flujo principal. -->
                     <img src="./_Clothing/Shoes_2.jpeg" alt="Shoes_2">
-                    <figcaption>
+                    <figcaption> <!--El elemento HTML <figcaption>  representa un subtítulo o leyenda asociado al contenido del elemento padre <figure>, pudiendo ser colocado como primer o último hijo. Es importante destacar que el elemento <figcaption> es opcional.-->
                         Shoes <b></b>
                         <a href="#seccion_4"><button>Ver</button></a>
                     </figcaption>
@@ -149,7 +150,8 @@
         
     <!--FOOTER-->
     <DIV class="footer-div" id="footer">
-        <footer>
+        <footer> <!--El Elemento HTML Footer (<footer>) representa un pie de página para el contenido de sección más cercano o el elemento  raíz de sección (p.e, su ancestro mas cercano <article>, <aside>, <nav>, <section>,<blockquote>, <body>, <details>, <fieldset>, <figure>, <td>). Un pie de página típicamente contiene información acerca de el autor de la sección, datos de derechos de autor o enlaces a documentos relacionados.
+        -->
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="#">Inicio</a></li>
                 <li class="list-inline-item"><a href="#footer">Servicios</a></li>
@@ -163,6 +165,6 @@
     <!--FOOTER-->
 
 </body>
-
+<!--BODY-->
 
 </html>

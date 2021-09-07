@@ -1,49 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700&display=swap'); /* Importar fuente */
 
 
 body
 {
-    font-family: "Raleway",sans-serif;
-    margin: 0;
-    background-color: #fafafa;
+    font-family: "Raleway",sans-serif; /* */
+    margin: 0;  /* */
+    background-color: #fafafa;  /* */
 }
 
 /* -------------- BARRA NAVEGACION---------------*/
 .navegacion
 {
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight:500;
-    height: 40px;
-    background-color: fafafa;
+    font-size: 16px;    /* Tamaño fuente*/
+    font-weight:500;    /* Peso de la letra*/
+    height: 40px;       /* Especifica el tamaño del area en donde esta colocado, por ejemplo un div o un padding area */
+    background-color: fafafa;   /* */
 
-    margin: 25px;
-    padding:.50rem 0;
+    margin: 25px;   /* */
+    padding:.50rem 0;   /* */
 
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
+    display: flex;  /* Tipo de cajaÑ Flexbox es un módulo de diseño de CSS3 que se creó para mejorar la forma en la que se hace diseño responsive, evitando así el uso de float, escribiendo menos código y facilitando el posicionamiento de elementos, incluso no teniendo noción del tamaño de éstos. Básicamente la idea de Flexbox es poder alterar el ancho, alto y posicionamiento de elementos de la mejor manera con el espacio del que disponemos. */
+    justify-content: flex-end;  /* Empieza a justificar el contenido por el axis final de la flexbox */
+    align-items: center;    /* Alinea los elementos hacia el centro*/
 }
 
 .navegacion_item
 {
-    list-style:none;
-    margin-right:2rem;
+    list-style:none;    /* */
+    margin-right:2rem;  /* */
 }
 
 .navegacion_item a
 {
-    text-decoration: none; 
-    color: black;
+    text-decoration: none;  /* */
+    color: black;   /* */
 }
 
-.navegacion_item a:hover
+.navegacion_item a:hover    /* */
 {
-    color: rgb(130, 206, 123);
+    color: rgb(130, 206, 123);  
 }
 
-.navegacion_item a:active
+.navegacion_item a:active   /* */
 {
     color: rgb(112, 168, 106);
 }
@@ -62,7 +61,6 @@ body
     font-weight: 500;
     background-color: rgb(130, 206, 123);
     border: none; /*Eliminar efecto boton */
-    outline: none;
     border-radius: 35px; /*Suavizar bordes */
     padding: .5rem 1rem;
     cursor: pointer; /* Poner manita cuando pase con el cursor */
@@ -85,15 +83,16 @@ body
 
 .seccion_1
 {
+    /* */
     background: linear-gradient(180deg, rgba(158, 225, 150, 0.200) 0%,rgba(158, 225, 150, 0.466) 50%, rgba(37, 136, 26, 0.372) 100%);
 
     height: 550px;
-    display: flex;
+    display: flex; /* */
     width: 100%;
-    align-items: center;
-    justify-content: center;
+    align-items: center; /* */
+    justify-content: center; /* */
 
-    padding-top: 10px;
+    padding-top: 10px; /* */
     border-radius: 0px;
     
 }
@@ -122,9 +121,9 @@ body
     background: #fafafa;
 
     height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: flex; /* comúnmente llamado flexbox, fue diseñado como un modelo unidimensional de layout, y como un método que pueda ayudar a distribuir el espacio entre los ítems de una interfaz y mejorar las capacidades de alineación.*/
+    align-items: center; /* Alinea elementos al centro*/
+    justify-content: space-between; /* Ajusta los elementos entre el espacio correspondiente */
     margin-left: 64px;
     margin-right: 64px;
     margin-bottom: 64px;
@@ -147,7 +146,7 @@ body
     border-radius: 35px;
 }
 
-.seccion_2 img:hover
+.seccion_2 img:hover /* Opacidad al pasar el cursor */
 {
     opacity: 70%;
 }
@@ -155,7 +154,7 @@ body
 .seccion_2 p
 {
     font-weight: 400;
-    text-align: justify;
+    text-align: justify; /* Justificar texto */
 }
 
 .seccion_2 h2
@@ -177,28 +176,25 @@ body
     height: 500px;
     display: flex;
     width: 92%;
-    align-items:baseline;
-    justify-content:space-be;
     margin: auto;
     margin-top: 32px;
     padding-top: 0px;;
-    border-radius: 35px;
+    border-radius: 35px; /* Borde redondeado*/
 }
 
 .seccion_3 div
 {
     height: 100%;
     width: 550px;
-    margin: auto;
+    margin: auto; /* Ajusta automaticamente */
 }
 
 .seccion_3 img
 {
-    margin: 0 auto;
-    display: block;
-    max-height: 100%;
+    margin: 0 auto; /* Ajusta automaticamente */
+    max-height: 100%; /* Altura maxima sera del tamaño del div */
     max-width: 100%;
-    border-radius: 35px;
+    border-radius: 35px; 
 
 }
 
@@ -214,8 +210,6 @@ body
     height: 400px;
     display: flex;
     width: 92%;
-    align-items:baseline;
-    justify-content:space-be;
     margin: auto;
     margin-top: 0px;
     padding-top: 0px;;
@@ -304,7 +298,7 @@ body
     justify-content: center;
     padding:40px 0;
     margin-top: 32px;
-    background: linear-gradient(180deg, rgb(46, 46, 46) 0%, rgba(24, 24, 24) 100%);
+    background: linear-gradient(180deg, rgb(46, 46, 46) 0%, rgba(24, 24, 24) 100%); /* Fondo gradiente */
     color:#fafafa;
   }
   
@@ -318,17 +312,17 @@ body
     margin-bottom:0;
   }
   
-  .footer-div li {
+  .footer-div li { /* Hace referencia a un LI dentro de la clase .footer-div */
     padding:0 20px;
   }
   
-  .footer-div ul a {
-    color:inherit;
-    text-decoration:none;
-    opacity:0.8;
+  .footer-div ul a { /* Hace referencia a link, dentro de UL, dentro de la clase .footer-div */
+    color:inherit; /* Aparece como si nunca hubiera sido accionado */
+    text-decoration:none; /* Quita cualquier tipo de decoracion, como el subrayado */
+    opacity:0.8; 
   }
   
-  .footer-div ul a:hover {
+  .footer-div ul a:hover { /* Hace referencia a un elemento <a> cuando esta en su accion:hover, este mismo se encuentra dentro de ul en la clase.footer-div  */
     opacity:1;
     color: rgb(130, 206, 123);
   }
