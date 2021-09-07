@@ -5,6 +5,7 @@ body
 {
     font-family: "Raleway",sans-serif;
     margin: 0;
+    background-color: #fafafa;
 }
 
 .navegacion
@@ -13,7 +14,7 @@ body
     font-size: 16px;
     font-weight:500;
     height: 40px;
-    background-color: white;
+    background-color: fafafa;
 
     margin: 25px;
     padding:.50rem 0;
@@ -78,7 +79,7 @@ body
     background-color: rgb(112, 168, 106);
 }
 
-/* -------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
 
 .seccion_1
 {
@@ -107,7 +108,7 @@ body
     
     font-size: 32px;
     font-weight: normal;
-    margin-bottom: 1px;
+    margin-bottom: 225px;
     line-height: 0px;
 }
 
@@ -115,7 +116,7 @@ body
 
 .seccion_2
 {
-    background: #fff;
+    background: #fafafa;
 
     height: 500px;
     display: flex;
@@ -164,36 +165,28 @@ body
 
 .seccion_3
 {
-    background: linear-gradient(180deg, rgba(158, 225, 150, 0.200) 0%,rgba(158, 225, 150, 0.466) 50%, rgba(37, 136, 26, 0.372) 100%);
 
-    height: 550px;
+    height: 500px;
     display: flex;
     width: 92%;
-    align-items:center;
-    justify-content:space-between;
+    align-items:baseline;
+    justify-content:space-be;
     margin: auto;
-    padding-top: 10px;
+    padding-top: 0px;;
     border-radius: 35px;
 }
 
 .seccion_3 div
 {
-    size: inherit;
-    background-color: red;
     height: 100%;
-    width: 45%;
-    max-height: 100%;
-    max-width: 50%;
-    border-radius: 35px;
+    width: 40%;
     margin: auto;
-    background-size: cover;
-    background-position: center;
 }
 
 .seccion_3 img
 {
     display: flex;
-    margin: auto;
+    margin: 0 auto;
     max-width: 100%;
     max-height: 100%;
     border-radius: 35px;
@@ -204,57 +197,47 @@ body
 
 /* -------------FOOTER----------------*/
 
-.footer
-{
-    /*background-color: rgb(130, 206, 123);*/
-    background-color: #000;
-    height: 530px;
-    margin-top: 35px;
-
-}
-
-.footer p
-{
-    color: white;
-}
-
-.footer h3
-{
-    color: #919496;
-}
-
-.footer nav /* Similar a la barra de navegacion, flex para ajustar contenido  */
-{
-    padding: 50px 100px;
+.footer-div {
+    font-family: 'raleway', sans-serif;
+    font-weight: 300;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 80%;
-}
-
-.footer_1 /* Div izquierda */
-{
-    background-color: red;
-    height: 100%;
-    max-height: 100%;
-    max-width: 30%;
-    width: 20%;
+    justify-content: center;
+    padding:40px 0;
+    background: linear-gradient(180deg, rgb(46, 46, 46) 0%, rgba(24, 24, 24) 100%);
+    color:#fafafa;
+  }
+  
+  .footer-div ul {
     display: flex;
-}
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:16px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-div li {
+    padding:0 20px;
+  }
+  
+  .footer-div ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-div ul a:hover {
+    opacity:1;
+    color: rgb(130, 206, 123);
+  }
+  
+  
+  .footer-div .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#fafafa;
+    margin-bottom:0;
+  }
 
-
-.footer_2   /* Div central */
-{
-    background-color: aqua;
-    height: 100%;
-    width: 55%;
-}
-
-.footer_3   /* Div Derecha */
-{
-    background-color: gray;
-    height: 100%;
-    max-height: 100%;
-    max-width: 30%;
-    width: 20%;
-}
